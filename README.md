@@ -165,7 +165,7 @@ That last command will output your IP. Take note of it. If you ever forget, you 
 ---
 
 ## Connect to Minecraft Server
-1. Ensure the server is open and recognizable using the following:
+1. Wait 30-60 seconds. Ensure the server is open and recognizable using the following:
 ```plaintext
   nmap -sV -Pn -p T:25565 <instance_public_ip> 
 ```
@@ -178,7 +178,7 @@ That last command will output your IP. Take note of it. If you ever forget, you 
 
 If you don't see minecraft listed or are unable to connect, retrace your steps and see if anything was missed or misconfigured and that there were no error messages along the way.
 
-2. Ensure Minecraft shuts downs gracefully and automatically starts up on reboot by running the following commands:
+1. Ensure Minecraft shuts downs gracefully and automatically starts up on reboot by running the following commands:
    
 Reboot the server:
 ```plaintext
