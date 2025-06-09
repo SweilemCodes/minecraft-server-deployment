@@ -49,7 +49,6 @@ variable "ssh_allowed_ips" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance" # This should match the region (e.g., Ubuntu, Amazon Linux)
   type        = string                        # User must supply this or use a data source to look it up
-  # Example: "ami-0abcdef1234567890"
 }
 
 # -------------------------------
